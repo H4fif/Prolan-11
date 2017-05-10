@@ -1,3 +1,11 @@
-Abstraction diimplementasikan pada class methodGalon
+<p>
+  File yang diluar folder adalah project dengan <i>implementasi ABSTRACTION</i>
+</p>
 </br>
-Deklarasi method abstrak pada class galon
+<p>
+<i>Abstraction</i> diimplementasikan pada <i>class methodGalon</i>
+</p>
+</br>
+<p>
+<i>Deklarasi method abstrak</i> pada <i>class galon</i>
+</p>

@@ -1,0 +1,7 @@
+<p>Kelas abstrak, user hanya dapat melihat apa saja hal yang bisa dilakukan oleh objek tersebut, bukan bagaimana objek melakukan hal tersebut.</p>
+<p>Lalu method-method abstrak tersebut harus di override, sesuai dengan kebutuhan programmer.</p>
+<p>Kelas enkapsulasi ialah pembungkus objek, dimana objek tersebut tidak dapat di akses sembarangan oleh objek lain.</p>
+
+<p>Perbedaannya</p>
+<p>Bila kelas abstrak, user hanya bisa melihat hal apa saja yang bisa dilakukan oleh objek, namun di kelas enkapsulasi, user juga bisa melihat bagaimana objek melakukan hal tersebut.</p>
+<p>Lalu bila kelas abstrak, programmer meng-<i>override</i>seluruh atribut dan method abstrak yang ada dikelas tersebut. Sedangkan kelas enkapsulasi, programmer tidak dapat sembarangan mengakses atribut dan method yang ada dikelasnya.</p>

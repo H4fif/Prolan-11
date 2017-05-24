@@ -1,0 +1,19 @@
+<p>
+	1. <i><b>Tagging Interface</b></i> dapat disebut sebagai <b>blueprint</b> atau kerangka atau juga induk interface dari beberapa interface (terutama apabila terjadi multiple inheritence).
+</p>
+<p>
+	2. Selain itu, dapat digunakan juga untuk membatasi kepemilikan sebuah objek. 
+</p>
+<p>
+	3. Untuk menambahkan tipe data ke sebuah kelas, sebuah kelas yang meng-<i>implement</i> sebuah <i>tagging interface</i> tidak perlu mendefinisikan atau mendeklarasikan method apapun (karena di interfacenya juga tidak ada method) tapi kelas tersebut menjadi sebuah <i>interface</i> dengan sifat <i>polimorfism</i>.
+</p>
+</br>
+</br>
+</br>
+<p>
+	Referensi:
+</p>
+<p>
+	1. https://stackoverflow.com/questions/1293152/tagging-interfaces-in-java
+	2. https://www.tutorialspoint.com/java/java_interfaces.htm
+</p>

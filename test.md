@@ -15,7 +15,7 @@
 					Deklarasi method tersebut disimpan di <i>class member</i>
 				</li>
 				<li>
-					<i>Class main<i> hanya memanggil methodnya saja
+					<i>Class main</i> hanya memanggil methodnya saja
 				</li>
 			</ul>
 			<p>Class/Mehod yang diubah:</p>

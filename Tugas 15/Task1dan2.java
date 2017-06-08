@@ -18,4 +18,4 @@ public class Task1dan2 <T,N>{
 	public void nilaiX(String x){
 		System.out.println(x);
 	}
-}
+}   

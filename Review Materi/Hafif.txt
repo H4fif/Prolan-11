@@ -1,0 +1,240 @@
+REVIEW MATERI
+---------------------------------
+Pertemuan: 1
+Materi: Pengenalan dan Sintaks Java
+Pembahasan:
+1) Pendahuluan Java
+a. Bahasa Pemrograman
+b. Aplikasi
+c. Development Environment
+d. Deployment Environment
+e. Prinsip Java, "Write once, run anywhere"
+2) Ruang Lingkup Java
+a. Java Runtime Environment = Menjalankan Program Java
+b. Java Development Kit = Membuat Program Java
+c. Java Virtual Machine = Tempat Menjalankan Program Java
+3) Penulisan
+a. Variabel, Kelas dan Metode = case sensitive
+b. Nama kelas = diawali huruf besar (saran) dan harus sama dengan nama file .java
+c. Nama metode = diawali huruf kecil (saran)
+d. Metode utama = dipanggil setiap kali program dieksekusi
+e. Identifier = A-Z, a-z, $, _
+4) Modifier
+a. Access Modifier = default, public, protected, private
+b. Access Non-Modifier = final, abstract, etc
+5) Komentar
+a. Single-line = //
+b. Multi-line = /* */
+6) Membuat akun github
+Folder Github: Tugas 1
+---------------------------------
+Pertemuan: 2
+Materi: Instalasi JDK, Netbeans, Program Java dan Setting Environment
+Pembahasan:
+1) Mengenal apa itu JDK
+2) Menginstal JDK
+3) Menginstal Netbeans (IDE)
+4) Membuat Program Java
+a. Dengan Netbeans
+b. Tanpa Netbeans
+5) Mengeksekusi Program Java
+a. Dengan Netbeans
+b. Tanpa Netbeans = Kompilasi manual
+6) Setting Environment Java
+a. Menambahkan lokasi JDK dipasang.
+Folder Github: Tugas 2
+---------------------------------
+Pertemuan: 3
+Materi: Input/Output (I/O)
+Pembahasan:
+1) Output
+2) Input
+a. Import Utilitas Scanner
+b. Instansiasi Scanner
+c. Penyesuaian Scanner (tipe data dan cara akses)
+- String = .nextLine()
+- Char = .next().charAt(0)
+- Int = .nextInt()
+- Boolean = .nextBoolean()
+Folder Github: Tugas 3
+---------------------------------
+Pertemuan: 4
+Materi: Konsep PBO dan Kelas Objek
+Pembahasan:
+1) Kelas = Bentuk generalisasi dari objek
+2) Objek = Memiliki 2 hal:
+	1. Data = atribut-atribut objek tersebut
+	2. Fungsi = fungsi masing-masing atribut objek tersebut
+3) Penulisan Kelas dan methodnya
+4) Kelas turunan
+5) Penulisan objek dan mthodnya
+Folder Github: Tugas 4
+---------------------------------
+Pertemuan: 5
+Materi: Tipe Data dan Variabel
+Pembahasan:
+TIPE DATA
+1) Jenis Tipe Data
+a. Primitif = 
+- byte (-128, 127)
+- int (-2.147.483.648, 2.147.483.647)
+- short (-32.768, 32.767)
+- long (-9.223.372.036.854.775.808, -9.223.372.036.854.775.807)
+- float (-3.402.823.47E+38, 3.402.823.47E+38), akhiri dengan f, 3.14f
+- double (-1.797.693.134.862.315.70E+308, 1.797.693.134.862.315.70E+308), akhiri dengan d, 3.14d
+- char (1 digit)
+- boolean (true/false, 1/0)
+b. Objek (Bentukan) = 
+- String
+- Calender
+- Date
+VARIABEL
+2) Variabel = Tempat menampung nilai dalam memori
+3) Jenis Variabel
+a. Lokal = Digunakan dalam satu sub-segmen (method), tidak dapat menggunakan modifier
+b. Instance = Digunakan dalam kelas dan di luar sub-segmen, dapat menggunakan modifier
+- Metode Static-> Obj.Var
+- Metode Non-Static-> langsung
+c. Static = Variabel kelas, tidak bisa diubah, keyword static, biasa digunakan untuk kelas lain
+4) Konstanta = Tidak bisa diubah, keyword final
+5) Operator
+a. Aritmatika = +, -, *, /, %, ++, --
+b. Relasional = >, <, ==, !=, >=, <=
+c. Logika = &&, ||, !
+d. Assignment = +=, -=, =, *=, /=, %=
+e. Miscellaneous
+- Kondisional = ((x == 1)? 11:10)
+- Instance Of = boolean var = obj1 instanceof obj2
+Folder Github: Tugas 5
+---------------------------------
+Pertemuan: 6
+Materi: Method dan Atribut
+Pembahasan:
+1) Access Modifier
+a. Public = Dapat diakses dari kelas manapun
+b. Protected = Dapat diakses dari kelas itu dan turunannya
+c. Private = Hanya dapat diakses dari kelas itu sendiri
+2) Method = Kumpulan baris program (sub-segmen)
+a. Return Value (Fungsi)
+b. Void (Prosedur)
+3) Kegunaan dan penulisan method
+4) Method Overloading = Sama nama tapi beda parameter
+5) Constructor = Method yang dieksekusi saat objek dibuat (instansiasi), punya nama yang sama dengan kelas
+6) This = Referensi Objek, Instance variable/method/constructor, Membedakan akses global dan lokal (var)
+7) Atribute = Representasi data dari kelas, akses melalui obj, konstanta termasuk atribut
+Folder Github: Tugas 6
+---------------------------------
+Pertemuan: 7
+Materi: Quiz
+Pembahasan: Studi Kasus 1 - Nilai Mahasiswa
+Folder Github: Tugas 7
+---------------------------------
+Pertemuan: 8
+Materi: Inheritance
+Pembahasan: 
+1) Pewarisan (Inheritance) = Menurunkan method dan atribute dari satu kelas ke kelas lainnya
+2) Keyword Super = Membedakan atribut, method dari kelas ayah dan anak
+3) Hubungan Kelas
+a. Has a (Instansiasi Obj)
+b. Gen-Spec (Extends)
+Folder Github: Tugas 8
+---------------------------------
+Pertemuan: 9
+Materi: Quiz
+Pembahasan: Studi Kasus 2 - Nilai Minimum & Maksimum
+Folder Github: Tugas 9
+---------------------------------
+Pertemuan: 10
+Materi: Modifiers, Overriding, Polimorfisme
+Pembahasan: 
+1) Modifiers dan Method
+a. Getter = Mengambil data dari kelas yang memiliki akses private
+b. Setter = Menyimpan data dari kelas yang memiliki akses private
+c. Method Static = Bisa diakses tanpa menggunakan objek (direct)
+d. Method Final = Tidak bisa diubah dari luar kelas
+2) Overriding = Modifikasi method turunan dari super kelas
+- Tidak final
+- Parameter sama (nama dan jumlah)
+- Tidak restrictive
+3) Polimorfisme = Kemampuan objek dapat memiliki banyak bentuk (kelas)
+- Semua objek pada java polimorfik, karena merupakan turunan kelas Object.
+- Cls1 obj = new Cls2()
+Folder Github: Tugas 10
+---------------------------------
+Pertemuan: 11
+Materi: Abstraction
+Pembahasan:
+1) Abstraksi = Menyembunyikan detil proses (kulit)
+- Keyword abstract
+- Tidak dapat diinstansiasi
+- Tidak memiliki implementasi method
+- Pada kelas abstrak, bisa memuat kelas konkrit
+- Tidak dapat diinstansiasi langsung
+- Turunkan ke kelas lain (konkrit), seluruh metode abstrak harus diimplementasi
+a. Method Abstract
+b. Class Abstract
+Folder Github: Tugas 11
+---------------------------------
+Pertemuan: 12
+Materi: Encapsulation
+Pembahasan:
+1) Enkapsulasi
+- Membungkus data dan fungsi menjadi suatu unit (data-hidding)
+- Atribute kelas = private
+- Akses data dengan methode khusus getter setter (public)
+2) Getter Setter
+Folder Github: Tugas 12, Hafif-10114337-EncapIntegration
+---------------------------------
+Pertemuan: 13
+Materi: Interface
+Pembahasan:
+1) Interface = reference type, mirip dengan kelas, berisi kumpulan metode abstrak, keyword interface
+- Tidak bisa diinstansiasi
+- Tidak memiliki konstruktor
+- Semua metode abstrak
+- Tidak ada instance variable, kecuali var static dan final
+- Kelas bisa implements beberapa interface
+- Interface Tidak bisa implements interface
+Folder Github: Tugas 13
+---------------------------------
+Pertemuan: 14
+Materi: Konsep Generic Class dan Generic Method
+Pembahasan:
+1) Kelas Generik
+- Kelas umum/universal
+- Tidak memiliki tipe data dan fungsi di dalamnya (set general)
+- Diturunkan sebagai parameter tipe class A <T> {}, E=Element, K=Key, N=Number, T=Type, V=Value
+- Gen<T> obj = new Gen<>()
+2) Metode Generik
+- Tipe parameter method (generik)
+- public <T> void method(T[] x) {}
+3) Menganalisis generic method dari contoh kasus, lalu hasil analisis di diskusikan dikelas.
+4) Sprint Task lab
+Folder Github: Tugas 14, Tugas 15
+---------------------------------
+Pertemuan: 15
+Materi: Konsep Package
+Pembahasan:
+1) Paket
+- Menghindari konflik penamaan kelas, interface, dsb
+- Akses kontrol dan saling berhubungan satu sama lain
+a. Paket bawaan = java.lang, java.io
+b. Paket bentukan
+- package nama_package;
+- javac -d . nama_file.java
+- java nama_package.nama_kelas
+Folder Github: -
+---------------------------------
+Pertemuan: 15 (lab)
+Materi: Sprint Task
+Pembahasan:
+1) Membuat program di lab.
+2) Membuat laporan dikertas, dikumpulkan.
+Folder Github: -
+---------------------------------
+Pertemuan: 16
+Materi: Review Materi
+Pembahasan:
+1) Me-review semua materi, dibuat laporan dalam bentuk file .txt
+Folder Github: -
+---------------------------------

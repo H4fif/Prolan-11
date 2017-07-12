@@ -1,0 +1,107 @@
+-Cara Kerja Program
+1. Ketikkan nama depan.
+2. Ketikkan nama belakang (boleh kosong).
+3. Sambutan tampil, dilanjutkan dengan tampilan menu.
+4. Menu utama terdapat 3 pilihan :
+	1 : "Beli Air" untuk membeli air.
+	2 : "Registrasi Member" untuk daftar sebagai member konsumen langganan kami.
+	0 : "Batal" untuk menutup aplikasi.
+	
+	Pilih salah satu menu tersebut dengan mengetikkan nomor urut menunya saja.
+
+	1. Menu Beli Air :
+	- Pilih nomor 1 di menu utama untuk menampilkan menu beli air.
+	- Status member (tidak boleh kosong).
+	- Isi status member dengan mengetikkan satu karakter saja 'y' atau 'n'.
+	- Program ini tidak case sensitive.
+	- Bila konsumen terdaftar sebagai member, akan mendapat diskon 10% untuk pembelian apapun.
+	- Di menu ini terdapat 3 menu :
+	1 : "Galon" untuk membeli produk galon.
+	2 : "Botol" untuk membeli produk botol.
+	0 : "Batal" untuk menutup aplikasi.
+	
+	1. a. Galon :
+	- Pilih nomor 1 di menu beli air untuk membeli produk galon.
+	- Lalu akan tampil brand-brand galon yang kami miliki.
+	- Terdapat 3 brand galon, AQUA, AQSA dan GUWAYA.
+	- Pilih salah satu dengan mengetikkan nomor urutnya saja.
+	- Lalu akan tampil daftar jenis air berikut harganya.
+	- Pilih salah satu, ketik nomor urutnya saja.
+	- Pembelian selesai.
+	
+	1. b. Botol :
+	- Pilih nomor 2 di menu beli air untuk membeli produk botol.
+	- Lalu akan tampil brand-brand botol yang kami miliki.
+	- Terdapat 3 brand botol, AQUA, AQSA dan GUWAYA.
+	- Pilih salah satu dengan mengetikkan nomor urutnya saja.
+	- Lalu akan tampil daftar ukuran botol berikut harganya.
+	- Pilih salah satu, ketik nomor urutnya saja.
+	- Pembelian selesai.
+	
+	2. Menu Registrasi Member
+	- Pilih nomor 2 di menu utama untuk menampilkan menu registrasi member.
+	- Selanjutnya akan diminta data konsumen berikut :
+		- Nama, email (bila tersedia) dan tahun lahir.
+		- Nama tidak boleh kosong.
+		- Email boleh kosong.
+		- Tahun lahir tidak boleh kurang dari 1900 dan tidak boleh lebih dari 2013.
+	- Usia didapat dari tahun lahir dikurangi dengan tahun 2017.
+	- Tahun 2017 adalah tahun pembuatan aplikasinya.
+	- ID Member didapat dari hasil kombinasi nama dan usia.
+
+-Keterkaitan Dengan OOP
+1. Kelas dan Objek
+	- Kelas di gunakan di setiap bagian pada aplikasi ini.
+	- Objek :
+		- Scanner input = new Scanner (variabe input menjadi objek baru berbentuk kelas scanner).
+		- main head = new main (variabel head menjadi objek baru berbentuk kelas main)
+		- main sambut_ob = new main (variabel sambut_ob menjadi objek baru berbentuk kelas main).
+		- galon galon1 = new galon (variabel galon1 menjadi objek baru berbentuk kelas galon).
+		- botol botol1 = new botol (variabel botol1 menjadi objek baru berbentuk kelas botol).
+		
+2. Method, Konstruktor, This dan Atribut
+	- Method dan atribut digunakan disetiap kelas.
+	- Keyword This digunakan di kelas botol dan di kelas main.
+	- Konstruktor digunakan di kelas main.
+
+3. Inheritance
+	- Konsep inheritance digunakan di kelas botol dan galon.
+
+4. Overriding
+	- Digunakan di :
+		- Kelas botol karena menginherit kelas methodBotol.
+		- Kelas galon karena menginherit kelas methodGalon.
+		- Kelas member karena mengimplement 2 kelas, yaitu kelas getValue dan setValue.
+
+5. Polimorfisme
+	- Tidak diimplementasikan pada aplikasi ini.
+ 
+6. Abstraction
+	- Method abstract digunakan dikelas getValue dan setValue.
+	- Kelas dan method abstract digunakan dikelas methodBotol dan methodGalon.
+	
+7. Encapsulation
+	- Digunakan dikelas DiskonMember dan member.
+
+8. Interface
+	- Digunakan oleh file dengan nama getValue.java dan setValue.java.
+
+9. Generic Class
+	- Digunakan di kelas DiskonMember.
+
+10. Generic Method
+	- Digunakan di kelas DiskonMember.
+
+11. Packages
+	- Terdapat 2 packages, yaitu paket_fungsi dan paket_utama.
+	- Didalam package paket_fungsi terdapat 5 file :
+		1. DiskonMember.java
+		2. getValue.java
+		3. methodBotol.java
+		4. methodGalon.java
+		5. setValue.java
+	- Didalam package paket_utama terdapat 4 file :
+		1. botol.java
+		2. galon.java
+		3. main.java
+		4. member.java
